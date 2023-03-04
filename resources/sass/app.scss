@@ -1,0 +1,34 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-wrapper input{
+    width:100% !important;
+}
+.input-with-operator{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+}
+.input-with-operator select{
+    position: absolute;
+    left: -45px;
+    margin: 30px 10px 0 0;
+}
+.input-with-operator div{
+    width: 100%;
+    text-align: center;
+}
